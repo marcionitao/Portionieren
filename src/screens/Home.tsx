@@ -1,9 +1,10 @@
-import { VStack } from '@gluestack-ui/themed'
+import { Text, VStack } from '@gluestack-ui/themed'
+import { AccountTotal } from '../components/AccountTotal'
 
 export function Home() {
   return (
-    <VStack>
-      <h1>Home</h1>
+    <VStack flex={1} bg="$black">
+      <AccountTotal />
     </VStack>
   )
 }
