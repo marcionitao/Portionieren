@@ -10,3 +10,4 @@ It's an application to split the bill for a meal at a restaurant between friends
 - gluestack-ui
 - @rocketseat/eslint-config
 - expoContacts
+- react-native-svg-transformer

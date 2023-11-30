@@ -1,4 +1,12 @@
-import { Avatar, AvatarFallbackText, HStack, Text } from '@gluestack-ui/themed'
+import {
+  Avatar,
+  AvatarFallbackText,
+  Checkbox,
+  CheckboxIcon,
+  CheckIcon,
+  HStack,
+  Text,
+} from '@gluestack-ui/themed'
 
 interface Props {
   data: {
@@ -23,6 +31,11 @@ export function Person({ data }: Props) {
           {data.name}
         </Text>
       </HStack>
+      <Checkbox value={data.id} size="md" aria-label={data.name}>
+        <Checkbox.Indicator mr="$2">
+          <CheckboxIcon as={CheckIcon} />
+        </Checkbox.Indicator>
+      </Checkbox>
     </HStack>
   )
 }
