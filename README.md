@@ -9,3 +9,4 @@ It's an application to split the bill for a meal at a restaurant between friends
 - Typescript
 - gluestack-ui
 - @rocketseat/eslint-config
+- expoContacts
